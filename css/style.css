@@ -107,17 +107,17 @@ button:hover {
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
     cursor: pointer;
 }
 
 #menubar {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 1.8rem;
     color: #ffffff;
-    z-index: 20;
     cursor: pointer;
     width: min-content;
+    height: max-content;
 }
 
 .menu-list {
@@ -544,9 +544,9 @@ button:hover {
     justify-content: space-between;
 }
 
-.ranosys-logo {
-    height: 100px;
-    background-image: url(images/ranosys-logo.png);
+.auriga-logo {
+    height: 120px;
+    background-image: url(images/Auriga_IT.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -640,7 +640,7 @@ ul li {
 }
 
 #menubar {
-    margin-top: 12px;
+    font-size: 2.2rem;
 }
 
 .menu-list ul li {
@@ -689,16 +689,11 @@ button {
     }
     
     .logo {
-        height: 60px;
+        height: 40px;
     }
 
     #menubar {
-        margin-top: 18px;
-        font-size: 2.5rem;
-        color: #ffffff;
-        z-index: 20;
-        cursor: pointer;
-        width: min-content;
+        font-size: 2rem;
     }
 
     .menu-list ul li {
@@ -782,8 +777,8 @@ button {
         flex-direction: column;
     }
 
-    .ranosys-logo {
-        height: 80px;
+    .auriga-logo {
+        height: 90px;
     }
     
     input {
@@ -813,20 +808,15 @@ button {
     }
     
     .logo {
-        height: 50px;
+        height: 40px;
+    }
+
+    #menubar {
+        font-size: 2.8rem;
     }
 
     ul li {
         font-size: 1.6rem;
-    }
-
-    #menubar {
-        margin-top: 18px;
-        font-size: 2.5rem;
-        color: #ffffff;
-        z-index: 20;
-        cursor: pointer;
-        width: min-content;
     }
 
     .menu-list {
@@ -959,8 +949,8 @@ button {
         flex-direction: column;
     }
 
-    .ranosys-logo {
-        height: 80px;
+    .auriga-logo {
+        height: 90px;
     }
 
     .copyright {
