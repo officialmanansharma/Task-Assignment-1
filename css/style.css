@@ -1,3 +1,13 @@
+@keyframes menulist {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +72,7 @@ button {
     padding: 25px 45px;
     border-radius: 50px;
     background-color: transparent;
-    transition: 0.6s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 
 button:hover {
@@ -111,13 +121,14 @@ button:hover {
     cursor: pointer;
 }
 
-#menubar {
+.menu-bar {
     margin-top: 10px;
     font-size: 1.8rem;
     color: #ffffff;
     cursor: pointer;
     width: min-content;
     height: max-content;
+    transition: 0.6s ease-in-out all;
 }
 
 .menu-list {
@@ -127,7 +138,7 @@ button:hover {
     height: 500px;
     background-color: #000;
     z-index: 9;
-    transition: 0.6s ease-in-out all;
+    animation: menulist 0.6s ease-in-out;
 }
 
 .menu-list ul {
@@ -186,11 +197,7 @@ button:hover {
 
 .fa-chevron-down:hover {
     cursor: pointer;
-    transform: translateY(10px);
-    padding: 5px;
-    border: 2px solid white;
-    border-style: dashed;
-    border-radius: 50px;
+    transform: translateY(20px);
 }
 
 .section1 {
@@ -639,7 +646,7 @@ ul li {
     height: 40px;
 }
 
-#menubar {
+.menu-bar {
     font-size: 2.2rem;
 }
 
@@ -692,7 +699,7 @@ button {
         height: 40px;
     }
 
-    #menubar {
+    .menu-bar {
         font-size: 2rem;
     }
 
@@ -811,7 +818,7 @@ button {
         height: 40px;
     }
 
-    #menubar {
+    .menu-bar {
         font-size: 2.8rem;
     }
 
